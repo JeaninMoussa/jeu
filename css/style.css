@@ -1,0 +1,35 @@
+body{
+
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+}
+
+.dragon, .chevalier{
+  text-align: center;
+}
+
+#dragon, #chevalier{
+  width: 300px;
+  height: 300px;
+}
+
+#box1, #box3{
+  border: 2px solid black;
+  height: 50px;
+  width: 150px;
+}
+
+#box2, #box4{
+  background-color: green;
+  height: 50px;
+
+}
